@@ -1,0 +1,17 @@
+@import 'variables';
+@import 'priceCard';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 0 auto;
+   width: 1400px;
+   height: 1000px;
+   font-family: 'Montserrat', sans-serif;
+   background-color: $main-background;
+}
